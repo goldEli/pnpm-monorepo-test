@@ -1,0 +1,22 @@
+{
+  "name": "@miao-test-pnpm/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "num-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@miao-test-pnpm/core": "workspace:^",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  }
+}
